@@ -96,24 +96,24 @@
      */
     
     // 1.改变数据
-    _numberLabel.text = [NSString stringWithFormat:@"%d/%ld",_index + 1, self.imageData.count];
+    self.numberLabel.text = [NSString stringWithFormat:@"%d/%ld",self.index + 1, self.imageData.count];
     
     // 2.取出 index 对应的字典数据
-    NSDictionary * imageDict = self.imageData[_index];
+    NSDictionary * imageDict = self.imageData[self.index];
     
-    _iconView.image = [UIImage imageNamed:imageDict[kIconKey]];
-    _desLabel.text = imageDict[kDescKey];
+    self.iconView.image = [UIImage imageNamed:imageDict[kIconKey]];
+    self.desLabel.text = imageDict[kDescKey];
     
-    _preBtn.enabled = (_index != 0);
+    self.preBtn.enabled = (self.index != 0);
     
-    _nextBtn.enabled = (_index != self.imageData.count - 1);
+    self.nextBtn.enabled = (self.index != self.imageData.count - 1);
     
 }
 
 #pragma mark - 上一张
 - (IBAction)previous {
     
-    _index--;
+    self.index--;
     
     [self changData];
     
@@ -122,7 +122,7 @@
 #pragma mark - 下一张
 - (IBAction)next {
     
-    _index++;
+    self.index++;
     
     [self changData];
     

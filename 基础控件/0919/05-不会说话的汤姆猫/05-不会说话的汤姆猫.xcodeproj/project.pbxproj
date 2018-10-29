@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4955E9AA2187124B001F72B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4955E9A92187124B001F72B3 /* Assets.xcassets */; };
 		49604D30215A6C4400A5C0BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49604D2F215A6C4400A5C0BA /* AppDelegate.m */; };
 		49604D33215A6C4400A5C0BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49604D32215A6C4400A5C0BA /* ViewController.m */; };
 		49604D36215A6C4400A5C0BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49604D34215A6C4400A5C0BA /* Main.storyboard */; };
-		49604D38215A6C4700A5C0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49604D37215A6C4700A5C0BA /* Assets.xcassets */; };
 		49604D3B215A6C4700A5C0BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49604D39215A6C4700A5C0BA /* LaunchScreen.storyboard */; };
 		49604D3E215A6C4700A5C0BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49604D3D215A6C4700A5C0BA /* main.m */; };
 		49604F0B215A751F00A5C0BA /* footRight_25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49604D46215A751F00A5C0BA /* footRight_25.jpg */; };
@@ -459,13 +459,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4955E9A92187124B001F72B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49604D2B215A6C4400A5C0BA /* 05-不会说话的汤姆猫.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-不会说话的汤姆猫.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49604D2E215A6C4400A5C0BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49604D2F215A6C4400A5C0BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		49604D31215A6C4400A5C0BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		49604D32215A6C4400A5C0BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		49604D35215A6C4400A5C0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		49604D37215A6C4700A5C0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49604D3A215A6C4700A5C0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49604D3C215A6C4700A5C0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49604D3D215A6C4700A5C0BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -949,8 +949,8 @@
 				49604D2F215A6C4400A5C0BA /* AppDelegate.m */,
 				49604D31215A6C4400A5C0BA /* ViewController.h */,
 				49604D32215A6C4400A5C0BA /* ViewController.m */,
+				4955E9A92187124B001F72B3 /* Assets.xcassets */,
 				49604D34215A6C4400A5C0BA /* Main.storyboard */,
-				49604D37215A6C4700A5C0BA /* Assets.xcassets */,
 				49604D39215A6C4700A5C0BA /* LaunchScreen.storyboard */,
 				49604D3C215A6C4700A5C0BA /* Info.plist */,
 				49604D3D215A6C4700A5C0BA /* main.m */,
@@ -1756,7 +1756,6 @@
 				49604FF0215A752000A5C0BA /* eat_20.jpg in Resources */,
 				49604F31215A751F00A5C0BA /* knockout_07.jpg in Resources */,
 				4960502E215A752000A5C0BA /* scratch_25.jpg in Resources */,
-				49604D38215A6C4700A5C0BA /* Assets.xcassets in Resources */,
 				4960501E215A752000A5C0BA /* scratch_34.jpg in Resources */,
 				4960508D215A752000A5C0BA /* drink_50.jpg in Resources */,
 				49604FA4215A752000A5C0BA /* pie_02.jpg in Resources */,
@@ -1940,6 +1939,7 @@
 				49605059215A752000A5C0BA /* angry_06.jpg in Resources */,
 				49604FE1215A752000A5C0BA /* eat_00.jpg in Resources */,
 				49605022215A752000A5C0BA /* scratch_21.jpg in Resources */,
+				4955E9AA2187124B001F72B3 /* Assets.xcassets in Resources */,
 				496050C4215A752000A5C0BA /* drink_03.jpg in Resources */,
 				49604FC3215A752000A5C0BA /* footLeft_05.jpg in Resources */,
 				49605069215A752000A5C0BA /* cymbal_08.jpg in Resources */,
